@@ -15,5 +15,6 @@ export type FormType = {
   required: boolean
   type: string
   selections: string[]
+  isMultiple: boolean
   property: keyof SendServerData //SendServerDataタイプのキーを型にする
 }

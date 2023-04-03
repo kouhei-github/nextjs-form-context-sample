@@ -30,9 +30,6 @@ export default function Text(props: Pick<FormType, "label" | "placeholder" | "re
           value={forms.form[props.property]} // プロパティを合わせるために動的にした
           onChange={(event) => updateValue(event.target.value)}
         />
-
-        {forms.form[props.property]}
-
       </div>
   )
 }
